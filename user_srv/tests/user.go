@@ -57,6 +57,6 @@ func TestCreateUser() {
 func main() {
 	Init()
 	defer conn.Close()
-	//TestGetUserList()
-	TestCreateUser()
+	TestGetUserList()
+	//TestCreateUser()
 }
